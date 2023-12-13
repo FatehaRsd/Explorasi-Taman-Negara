@@ -1,0 +1,116 @@
+body {
+  font-family: "Space Grotesk", sans-serif;
+  color: #272142;
+  background-color: #b6cdbd;
+}
+
+body.dark {
+  background-color: #33484d;
+}
+
+.btn-change-theme {
+  display: block;
+  background: #6a9c78;
+  color: white;
+  font-size: 16px;
+  font-family: "Space Grotesk", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 50px;
+  border: none;
+  padding: 15px 20px;
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+  margin: 44px auto;
+}
+
+.btn-change-theme:hover {
+  opacity: 0.9;
+}
+body.dark .btn-change-theme {
+  background-color: #3d655d;
+  color: white;
+}
+
+.container {
+  box-shadow: 0px 30px 50px rgba(57, 48, 90, 0.1);
+  margin: 44px auto;
+  background: #f2f9f1;
+  max-width: 700px;
+  padding: 40px;
+  border-radius: 16px;
+}
+
+body.dark .container {
+  background-color: #3d655d;
+  color: white;
+}
+
+.main-image {
+  margin-bottom: 20px;
+}
+
+.main-image img:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+img {
+  border-radius: 12px;
+  width: 100%;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.grid img {
+  height: 200px;
+}
+
+.description {
+  text-align: justify;
+}
+
+a {
+  color: #272142;
+}
+
+body.dark .container a {
+  color: white;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.btn-order {
+  display: block;
+  background: #6a9c78;
+  color: white;
+  font-size: 16px;
+  font-family: "Space Grotesk", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 50px;
+  border: none;
+  padding: 15px 20px;
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+  margin: 44px auto;
+}
+
+.btn-order:hover {
+  opacity: 0.9;
+}
